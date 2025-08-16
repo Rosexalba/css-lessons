@@ -21,6 +21,7 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
   Example: Type selector targets elements by tag name in this example we will be using the h1 tag and the p tag to change the color font size of h1 and the color of the p tag
   
     < style>
+    
        h1 {
         color: purple;
         font-size: 24px;
