@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector</title>
+    <style>
+/* the univeral selector got rid of all the margin and padding the p tag ususally comes with */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+/* to grab all the class selector we did .highlights next to get desired look we added a background-color of yellow to highlight and changed the font weight to bold*/
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+/* for example if we put a p tag with no class it will not be highlighted */
+    </style>
+</head>
+<body>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p class="highlight">paragraph</p>
+    <p>not highlighted</p>
+</body>
+</html>
