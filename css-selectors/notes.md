@@ -5,7 +5,8 @@ CSS Selectors: define which HTML elemens to style. They help target specific ele
 # Basic selectors
 These selectors apply styles to elemeents based on tag names, classes, IDs and attributes.
 
-- Universal Selector: 'the star' targets all elements on the page.
+# Universal Selector: 
+'the star' targets all elements on the page.
 
   Example: the universal selector: in this example removes default margin padding from all elements and if wanted to you can change all text to a certain color
 
@@ -76,9 +77,8 @@ Use ID sparsely, each ID should be unique.
 
 - attribute: The attribute selector targets elements based on attributes and values 
 
-Example: for attribute ypu will use the input tag with a style type.
-Here you will be using [] after input with type inside the brackets.
-the first < p> tag will we styled will now have a solid blue border.
+Example: for attribute selector you will use the input tag with a style type.
+Here you will be using [] after input with type inside the brackets to select. Only the < p> tag with type " text " will be styled. you will now have a solid blue border.
 
 < style>
 
@@ -87,6 +87,7 @@ the first < p> tag will we styled will now have a solid blue border.
     }
 
 < /style>
+
 < body>
 
     <input type="text" placeholder="Enter your name" />
