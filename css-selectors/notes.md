@@ -129,18 +129,22 @@ Example: here only the p tag inside the div will be styled in the color green
 Example: to select the child selector you will use >
 <!-- Child selector -->
 < style>
+
       div > p {
         color: blue;
     }
+
 < /style>
 
 < body>
 <!-- Child selector -->
  < div>
+
         < p>direct child</p>
         < section>
             < p>not a direct child</p>
         < /section>
+        
     < /div>
 
 
