@@ -3,10 +3,10 @@ CSS Selectors: define which HTML elemens to style. They help target specific ele
 <br/>
 
 # Basic selectors
-These selectors apply styles to elemeents based on tag names, classes, IDs and attributes.
+- These selectors apply styles to elemeents based on tag names, classes, IDs and attributes.
 
 # Universal Selector: 
-'the star' targets all elements on the page.
+- 'the star' targets all elements on the page.
 
   Example: the universal selector: in this example removes default margin padding from all elements and if wanted to you can change all text to a certain color
 
@@ -17,7 +17,8 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
             color: purple;
         }
 
-- Type: targets elements by tag name 
+# Type: 
+- targets elements by tag name 
 
   Example: Type selector targets elements by tag name in this example we will be using the h1 tag and the p tag to change the color font size of h1 and the color of the p tag
   
@@ -33,7 +34,8 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
        }
     < / style>
 
-- Class: Class selector targets elements with a specific class
+# Class: 
+- Class selector targets elements with a specific class
 
   Example: to grab all the class selector we did 
   .highlights next to get desired look we added a background-color of yellow to highlight and changed the font weight to bold.
@@ -55,7 +57,8 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
 
    classes can be reused across multiple elements     
 
-- ID: ID selector targets an element with a unique ID selector 
+# ID: 
+- ID selector targets an element with a unique ID selector 
 
 Example: to select ID you will use a #. Here we added color and changed the font size to 20px
 
@@ -75,7 +78,8 @@ Example: to select ID you will use a #. Here we added color and changed the font
 Use ID sparsely, each ID should be unique. 
 
 
-- attribute: The attribute selector targets elements based on attributes and values 
+# attribute: 
+- The attribute selector targets elements based on attributes and values 
 
 Example: for attribute selector you will use the input tag with a style type.
 Here you will be using [] after input with type inside the brackets to select. Only the < p> tag with type " text " will be styled. you will now have a solid blue border.
