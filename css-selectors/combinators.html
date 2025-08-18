@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+</head>
+
+<style>
+    /* Desendant selector example */
+      div p {
+        color: green;
+      }
+    /* Child selector example */
+      div > p {
+        color: blue;
+      }
+
+</style>
+<body>
+    <!-- Desendant selector example-->
+    <div>
+        <p>this is inside a div</p>
+    </div>
+    <p>this is not a colored div</p>
+
+<!-- Child selector example -->
+    <div>
+        <p>direct child</p>
+        <section>
+            <p>not a direct child</p>
+        </section>
+    </div>
+
+</body>
+</html>

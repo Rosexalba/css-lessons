@@ -97,11 +97,53 @@ Here you will be using [] after input with type inside the brackets to select. O
     <input type="text" placeholder="Enter your name" />
     <input type="passowrd" placeholder="Enter your password" />
 
+Useful for styling forms and buttons 
+
 <br/>
 
 # Combinators
-- Descendant: 
-- Child:
+- Combinators target elements based on their relationship with other elements.
+
+
+- Descendant: The descendant selector targets all matching elements inside another element
+
+Example: here only the p tag inside the div will be styled in the color green
+<!-- Desedant selector -->
+ < style>
+
+    div p {
+        color: green;
+    }
+
+< /style>
+
+< body>
+<!-- Desendant selector -->
+    < div>
+        < p>this is inside a div< /p>
+    < /div>
+    < p>this is not a colored div< /p>
+    
+- Child: The child selector, parent to child targets direct children of an element.
+
+Example: to select the child selector you will use >
+<!-- Child selector -->
+< style>
+      div > p {
+        color: blue;
+    }
+< /style>
+
+< body>
+<!-- Child selector -->
+ < div>
+        < p>direct child</p>
+        < section>
+            < p>not a direct child</p>
+        < /section>
+    < /div>
+
+
 - Sibiling
 <br/>
 
