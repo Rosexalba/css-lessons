@@ -32,7 +32,7 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
        }
     < / style>
 
-- class: Targets elements with a specific class
+- Class: Class selector targets elements with a specific class
 
   Example: to grab all the class selector we did 
   .highlights next to get desired look we added a background-color of yellow to highlight and changed the font weight to bold.
@@ -54,11 +54,11 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
 
    classes can be reused across multiple elements     
 
-- ID: Targets an element with a unique ID selector 
+- ID: ID selector targets an element with a unique ID selector 
 
 Example: to select ID you will use a #. Here we added color and changed the font size to 20px
 
-< >style>
+< style>
 
     #uniqueText {
         color: red;
@@ -74,7 +74,24 @@ Example: to select ID you will use a #. Here we added color and changed the font
 Use ID sparsely, each ID should be unique. 
 
 
-- attribute:
+- attribute: The attribute selector targets elements based on attributes and values 
+
+Example: for attribute ypu will use the input tag with a style type.
+Here you will be using [] after input with type inside the brackets.
+the first < p> tag will we styled will now have a solid blue border.
+
+< style>
+
+    input[type='text'] {
+        border: 2px solid blue;
+    }
+
+< /style>
+< body>
+
+    <input type="text" placeholder="Enter your name" />
+    <input type="passowrd" placeholder="Enter your password" />
+
 <br/>
 
 # Combinators
