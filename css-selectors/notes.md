@@ -54,7 +54,26 @@ These selectors apply styles to elemeents based on tag names, classes, IDs and a
 
    classes can be reused across multiple elements     
 
-- ID:
+- ID: Targets an element with a unique ID selector 
+
+Example: to select ID you will use a #. Here we added color and changed the font size to 20px
+
+< >style>
+
+    #uniqueText {
+        color: red;
+        font-size: 20px;
+    }
+
+< /style>
+
+< body>
+
+    <p id="uniqueText">Hello World</p>
+
+Use ID sparsely, each ID should be unique. 
+
+
 - attribute:
 <br/>
 
