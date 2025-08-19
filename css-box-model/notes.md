@@ -10,6 +10,7 @@ every HTML element is a rectangular box with four layers.
 Example: 
 
 < style>
+
    .box {
             width: 200px;
             height: 100px;
@@ -19,7 +20,7 @@ Example:
             background-color: lightblue;
         }
 
-        < body>
+< body>
 
     <div class="box">Hello, I'm a box!</div>
 
@@ -30,6 +31,7 @@ By default width and height only affects the content area
 Example: 
 
 < style>
+
       .box {
             width: 250px;
             height: 150px;
