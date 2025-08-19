@@ -143,7 +143,7 @@ Example: to select the child selector you will use >
 
 < body>
 <!-- Child selector -->
- < div>
+    < div>
 
         < p>direct child</p>
         < section>
@@ -168,10 +168,10 @@ Example: for the Adjacent sibiling you will be using the + plus to style. here w
 
 < body>
 
-< h2>Heading< /h2>
-    < p>this is selected instead< /p>
-    < p>this is selected< /p>
-    < p>this is not.< /p>
+  < h2>Heading< /h2>
+         < p>this is selected instead< /p>
+         < p>this is selected< /p>
+         < p>this is not.< /p>
 
 2. The General sibiling selector: the element tilde sibiling target all matching siblings After an element.
 
@@ -179,17 +179,17 @@ Example: for the General sibiling we will be using ~ tilde to style. This will s
 
 < style>
 
-   h2 ~ p {
-        color: orange;
- } 
+h2 ~ p {
+            color: orange;
+        } 
 
 < /style>
 
 < body>
 
- < h2>Heading< /h2>
- < p>first paragraph.< /p>
- < p>second paragraph.< /p>
+< h2>Heading</h2>
+           < p>first paragraph.</p>
+           < p>second paragraph.</p>
 
 <br/>
 
