@@ -92,8 +92,42 @@ The position property determines how elements are placed on a page
 Position types:
 - # Static
 (default) | Normal flow, no positioning
+
+Example:
+
+< style>
+
+    .static {
+        position: static;
+    }
+
+< body>
+
+    <p class="static">i am static</p>  
+
 - # Relative
 Moves relative to its normal position
+
+Example:
+
+< style>
+
+    .static {
+        position: static;
+    }
+
+    .relative { 
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+< body>
+
+    <p class="static">i am static</p>
+    <div class="relative">i am relative</div>
+
+
 - # Absolute
 Moves relative to the nearest positioned ancestor
 - # Fixed
