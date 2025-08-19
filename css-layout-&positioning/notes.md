@@ -196,6 +196,7 @@ Example:
 
 # z-index
 controls which elements appear on top
+z-index 2 makes the blue box appear above the red box.
 
 < style>
 
@@ -204,7 +205,9 @@ controls which elements appear on top
         width: 100px;
         height: 100px;
      }
+
      .one { 
+
         background-color: red;
         z-index: 1;
      }
