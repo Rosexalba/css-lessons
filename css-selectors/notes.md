@@ -102,10 +102,13 @@ Useful for styling forms and buttons
 <br/>
 
 # Combinators
-- Combinators target elements based on their relationship with other elements.
+Combinators target elements based on their relationship with other elements.
+- Desendant
+- child
+- sibiling
 
-
-- Descendant: The descendant selector targets all matching elements inside another element
+- # Descendant: 
+The descendant selector targets all matching elements inside another element
 
 Example: here only the p tag inside the div will be styled in the color green
 <!-- Desedant selector -->
@@ -124,7 +127,8 @@ Example: here only the p tag inside the div will be styled in the color green
     < /div>
     < p>this is not a colored div< /p>
     
-- Child: The child selector, parent to child targets direct children of an element.
+- # Child:
+ The child selector, parent to child targets direct children of an element.
 
 Example: to select the child selector you will use >
 <!-- Child selector -->
@@ -144,11 +148,47 @@ Example: to select the child selector you will use >
         < section>
             < p>not a direct child</p>
         < /section>
-        
+
     < /div>
 
 
-- Sibiling
+- # Sibiling:
+- The adjacent sibiling selector, element plus sibiling, targets an element immediately after another
+
+Example: for the Adjacent sibiling you will be using the + plus to style. here we are changing the color of the sibiling it styles the first p after the h2 so if we added another p to the h2 that one would be selected instead.
+
+< style>
+
+   h2 + p {
+        color: purple
+    }
+
+< /style>
+
+< body>
+  < h2>Heading< /h2>
+    < p>this is selected instead< /p>
+    < p>this is selected< /p>
+    < p>this is not.< /p>
+
+- The General sibiling selector: the element tilde sibiling target all matching siblings After an element.
+
+Example: for the General sibiling we will be using ~ tilde to style. This will style all P tags after h2. here all p tags after h2 will now be orange
+
+< style>
+
+   h2 ~ p {
+            color: orange;
+        } 
+
+< /style>
+
+< body>
+
+ < h2>Heading</h2>
+ < p>first paragraph.</p>
+ < p>second paragraph.</p>
+
 <br/>
 
 # Pseudo-classes
