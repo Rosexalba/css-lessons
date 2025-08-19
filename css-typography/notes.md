@@ -45,3 +45,43 @@ Typography is one of the most important aspects of web design. it determines how
 - em - Relative to parent element 1em = 100% 
 - rem - Relative to the root ( html ( font-size 16px) 1rem = 16px 
 - vw, vh --> Relative to viewport width and height 
+
+# Font Weight & Font style
+font weight refers to the boldness of text and font style refers italics or normal.
+
+< style>
+
+        .light {
+            font-weight: 300;
+
+        }
+
+        .normal {
+             font-weight: 400;
+        }
+
+        .bold {
+             font-weight: 700;
+        }
+
+< body>
+
+    <p class="light">light text</p>
+    <p class="normal">medium text</p>
+    <p class="bold">bold text</p>
+
+
+- values range from 100 to 900 
+
+# font style 
+
+< style>
+
+      .italic {
+            font-style: italic;
+        }
+
+< body>
+
+      <p class="bold italic">bold text</p>
+
