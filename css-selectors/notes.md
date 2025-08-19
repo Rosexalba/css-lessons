@@ -5,10 +5,10 @@ CSS Selectors: define which HTML elemens to style. They help target specific ele
 # Basic selectors
 - These selectors apply styles to elemeents based on tag names, classes, IDs and attributes.
 
-# Universal Selector: 
-- 'the star' targets all elements on the page.
+# Universal: 
+- the universal selector targets all elements on the page.
 
-  Example: the universal selector: in this example removes default margin padding from all elements and if wanted to you can change all text to a certain color
+  Example: the universal selector: * using 'the star' in this example removes default margin padding from all elements and if wanted to you can change all text to a certain color
 
         * {
             margin: 0;
@@ -18,9 +18,9 @@ CSS Selectors: define which HTML elemens to style. They help target specific ele
         }
 
 # Type: 
-- targets elements by tag name 
+- The type selector targets elements by tag name 
 
-  Example: Type selector targets elements by tag name in this example we will be using the h1 tag and the p tag to change the color font size of h1 and the color of the p tag
+  Example: here you select elements by tag name in this example we will be using the h1 tag and the p tag to change the color font size of h1 and the color of the p tag
   
     < style>
 
@@ -37,8 +37,7 @@ CSS Selectors: define which HTML elemens to style. They help target specific ele
 # Class: 
 - Class selector targets elements with a specific class
 
-  Example: to grab all the class selector we did 
-  .highlights next to get desired look we added a background-color of yellow to highlight and changed the font weight to bold.
+  Example: here we select elements by using . (ex) .highlights next to get desired look we added a background-color of yellow to highlight and changed the font weight to bold.
 
         < style>
 
@@ -106,6 +105,8 @@ Combinators target elements based on their relationship with other elements.
 1. Desendant
 2. child
 3. sibiling
+ - Adjacent 
+ - General
 
 - # Descendant: 
 The descendant selector targets all matching elements inside another element
@@ -153,25 +154,26 @@ Example: to select the child selector you will use >
 
 
 - # Sibiling:
-- The adjacent sibiling selector, element plus sibiling, targets an element immediately after another
+1. The adjacent sibiling selector, element plus sibiling, targets an element immediately after another
 
 Example: for the Adjacent sibiling you will be using the + plus to style. here we are changing the color of the sibiling it styles the first p after the h2 so if we added another p to the h2 that one would be selected instead.
 
 < style>
-
-   h2 + p {
+    
+    h2 + p {
         color: purple
-    }
+   }
 
 < /style>
 
 < body>
+
   < h2>Heading< /h2>
     < p>this is selected instead< /p>
     < p>this is selected< /p>
     < p>this is not.< /p>
 
-- The General sibiling selector: the element tilde sibiling target all matching siblings After an element.
+2. The General sibiling selector: the element tilde sibiling target all matching siblings After an element.
 
 Example: for the General sibiling we will be using ~ tilde to style. This will style all P tags after h2. here all p tags after h2 will now be orange
 
