@@ -194,5 +194,31 @@ Example:
 
       <header class="sticky">i am sticky</header>
 
+# z-index
+controls which elements appear on top
+
+< style>
+
+  .box {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+     }
+     .one { 
+        background-color: red;
+        z-index: 1;
+     }
+
+     .two { 
+        background-color: blue;
+        z-index: 2;
+        top: 20px;
+        left:20px;
+     }
+
+< body>
+
+     <div class="box one">box one</div>
+    <div class="box two">box two</div>
 
 

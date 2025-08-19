@@ -45,15 +45,34 @@
         padding: 10px;
         z-index: 1000;
      }
+
+     .box {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+     }
+     .one { 
+        background-color: red;
+        z-index: 1;
+     }
+
+     .two { 
+        background-color: blue;
+        z-index: 2;
+        top: 20px;
+        left:20px;
+     }
 </style>
 <body>
-    <header class="sticky">i am sticky</header>
+    <!-- <header class="sticky">i am sticky</header>
     <p class="static">i am static</p>
     <div class="relative">i am relative</div>
     <div class="fixed">i am fixed</div>
 
     <div class="parent">
-        <div class="absolute">i am absolute</div>
-    </div>
+        <div class="absolute">i am absolute</div> -->
+    <!-- </div> -->
+    <div class="box one">box one</div>
+    <div class="box two">box two</div>
 </body>
 </html>
