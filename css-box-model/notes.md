@@ -12,6 +12,7 @@ Example:
 < style>
 
    .box {
+
             width: 200px;
             height: 100px;
             padding: 20px;
@@ -33,6 +34,7 @@ Example:
 < style>
 
       .box {
+        
             width: 250px;
             height: 150px;
             background-color: lightgray;
