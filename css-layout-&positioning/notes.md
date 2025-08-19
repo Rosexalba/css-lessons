@@ -130,6 +130,33 @@ Example:
 
 - # Absolute
 Moves relative to the nearest positioned ancestor
+
+Example: 
+
+< style>
+
+         .parent {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: lightgrey;
+     }
+
+     .absolute {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        background-color: lightcoral;
+     }
+
+< body>     
+
+      <div class="parent">
+        <div class="absolute">i am absolute</div>
+    </div>
+
+- the absolute positons itself inside the parent 
+
 - # Fixed
 Stays fixed on the screen 
 - # Sticky

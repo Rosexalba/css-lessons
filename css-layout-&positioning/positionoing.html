@@ -6,7 +6,7 @@
     <title>Positioning</title>
 </head>
 <style>
-    .static {
+    /* .static {
         position: static;
     }
 
@@ -14,10 +14,28 @@
         position: relative;
         top: 20px;
         left: 30px;
-    }
+    } */
+
+     .parent {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: lightgrey;
+     }
+
+     .absolute {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        background-color: lightcoral;
+     }
 </style>
 <body>
-    <p class="static">i am static</p>
-    <div class="relative">i am relative</div>
+    <!-- <p class="static">i am static</p>
+    <div class="relative">i am relative</div> -->
+
+    <div class="parent">
+        <div class="absolute">i am absolute</div>
+    </div>
 </body>
 </html>
