@@ -201,7 +201,7 @@ z-index 2 makes the blue box appear above the red box.
 < style>
 
   .box {
-    
+
         position: absolute;
         width: 100px;
         height: 100px;
@@ -225,4 +225,12 @@ z-index 2 makes the blue box appear above the red box.
      <div class="box one">box one</div>
     <div class="box two">box two</div>
 
+# Overflow
+The overflow property controls the content inside a container
+- values 
+ 1. visible (default)
+ 2. content overflow
+ 3. hidden - hides content 
+ 4. scroll - adds scroll bar
+ 5. auto - adds scrolls bar when needed
 
