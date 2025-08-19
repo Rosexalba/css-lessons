@@ -42,6 +42,6 @@ Typography is one of the most important aspects of web design. it determines how
 
 # values
 
-/* em - Relative to parent element 1em = 100% */
-/* rem - Relative to the root (html ( font-size 16px) 1rem = 16px */
-/* vw, vh --> Relative to viewport width and height */
+- em - Relative to parent element 1em = 100% 
+- rem - Relative to the root ( html ( font-size 16px) 1rem = 16px 
+- vw, vh --> Relative to viewport width and height 
