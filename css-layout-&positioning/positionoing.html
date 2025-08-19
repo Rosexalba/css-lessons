@@ -37,8 +37,17 @@
         right: 10px;
         background-color: yellow;
      }
+
+     .sticky {
+        position: sticky;
+        top: 0;
+        background-color: lightgreen;
+        padding: 10px;
+        z-index: 1000;
+     }
 </style>
 <body>
+    <header class="sticky">i am sticky</header>
     <p class="static">i am static</p>
     <div class="relative">i am relative</div>
     <div class="fixed">i am fixed</div>

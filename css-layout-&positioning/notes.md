@@ -158,7 +158,7 @@ Example:
 - the absolute positons itself inside the parent 
 
 - # Fixed
-Stays fixed on the screen no matter where you go to on the page
+Stays fixed on the screen no matter where you go to on the page - good for a chat box
 
 Example:
 
@@ -176,7 +176,23 @@ Example:
      <div class="fixed">i am fixed</div>    
 
 - # Sticky
-Sticks when scrolling past a point
+Sticks when scrolling past a point - useful for navigation bars 
+
+Example: 
+
+< style>
+
+       .sticky {
+        position: sticky;
+        top: 0;
+        background-color: lightgreen;
+        padding: 10px;
+        z-index: 1000;
+     }
+
+ < body>    
+
+      <header class="sticky">i am sticky</header>
 
 
 
