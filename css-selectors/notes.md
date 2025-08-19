@@ -232,6 +232,7 @@ li:nth-child(odd) {
             background-color: light grey;
         }
  you can also do nth-child(1) or (2) or (even) ect.
+
 < body>
 
           <ul>
@@ -240,15 +241,44 @@ li:nth-child(odd) {
         <li>item 3</li>
     </ul>
 
-- # :hover
-
-
 <br/>
 
 # pseudo-elemnts
-- ::before
+- pseudo elements insert content before or after an element.
+adds extra content without modifying html
+
+- ::before 
+inserts content before element 
+
+Example: 
+
+  .quote::before {
+            content: '"'; opening quote
+            font-size: 20px;
+            color: blue;
+        }
+
+ < body>
+
+    < p class="quote">this is a quote< /p>
+           
 - ::after
-   
+inserts content after element
+
+Example:
+
+ .quote::after {
+            content: '"'; closing quote
+            font-size:20px;
+            color: green;
+        }
+
+
+< body>
+
+    < p class="quote">this is a quote</p>
+    
+- adds decroative elements
 
 
  
