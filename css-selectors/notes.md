@@ -252,6 +252,8 @@ inserts content before element
 
 Example: 
 
+< style>
+
   .quote::before {
             content: '"'; opening quote
             font-size: 20px;
@@ -266,6 +268,8 @@ Example:
 inserts content after element
 
 Example:
+
+< style>
 
  .quote::after {
             content: '"'; closing quote
