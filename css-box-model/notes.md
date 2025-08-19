@@ -125,7 +125,7 @@ The solution is adding box-sizing: border-box;
 
  now width and heigh include padding and border keeping the box size fixed.
 
-# Box-shadow 
+# Box shadow 
 this is adding depth create a 3d effect around an element
 
 .box {
