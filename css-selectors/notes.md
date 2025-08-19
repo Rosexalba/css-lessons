@@ -168,11 +168,12 @@ Example: for the Adjacent sibiling you will be using the + plus to style. here w
 
 < body>
 
-  < h2>Heading< /h2>
-  
-         < p>this is selected instead< /p>
-         < p>this is selected< /p>
-         < p>this is not.< p>
+  < h2> Heading < /h2>
+
+         < p> this is selected instead < /p>
+         < p> this is selected < /p>
+         < p> this is not.< p>
+
 
 2. The General sibiling selector: the element tilde sibiling target all matching siblings After an element.
 
@@ -181,11 +182,10 @@ Example: for the General sibiling we will be using ~ tilde to style. This will s
 
 < style>
 
- h2 ~ p {
-            color: orange;
-        } 
+    h2 ~ p {
+         color: orange;
+ } 
 
-< /style>
 
 < body>
 
@@ -198,9 +198,47 @@ Example: for the General sibiling we will be using ~ tilde to style. This will s
 
 # Pseudo-classes
 Pseudo classes apply styles whent elements are in a certain state
-1. :hover
-2. :focus
-3. :nth-child
+1. :hover : the mouse hover :hover changes styles when the user hovers over an element 
+
+Example:  
+
+  button:hover {
+            background-color: green;
+        }
+
+   < body>
+    < button>hover me< /button>     
+
+
+2. :focus: when the cursor is focused on the input 
+
+Example:
+
+    input:focus {
+            border: 3px solid rgb(235, 100, 190);
+        }
+
+    < body>    
+
+        <input type="text" placeholder="click here" />
+
+  - useful for form accessibility       
+
+3. :nth-child: let say I only wanted the odd numbers a certain style for example on a list 
+
+Example: 
+
+li:nth-child(odd) {
+            background-color: light grey;
+        }
+ you can also do nth-child(1) or (2) or (even) ect.
+< body>
+
+          <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
 
 - # :hover
 

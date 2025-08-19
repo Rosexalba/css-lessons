@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psuedo classes</title>
+    <style>
+        button:hover {
+            background-color: green;
+        }
+
+        input:focus {
+            border: 3px solid rgb(235, 100, 190);
+        }
+
+        li:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <button>hover me</button>
-    
+    <input type="text" placeholder="click here" />
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
 </body>
 </html>
