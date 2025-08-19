@@ -158,7 +158,23 @@ Example:
 - the absolute positons itself inside the parent 
 
 - # Fixed
-Stays fixed on the screen 
+Stays fixed on the screen no matter where you go to on the page
+
+Example:
+
+< style>
+
+    .fixed {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: yellow;
+     }
+
+ < body>
+
+     <div class="fixed">i am fixed</div>    
+
 - # Sticky
 Sticks when scrolling past a point
 

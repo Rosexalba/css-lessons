@@ -6,20 +6,21 @@
     <title>Positioning</title>
 </head>
 <style>
-    /* .static {
+    .static {
         position: static;
     }
 
     .relative { 
         position: relative;
-        top: 20px;
+        /* top: 20px; */
         left: 30px;
-    } */
+    
+    }
 
      .parent {
         position: relative;
         width: 300px;
-        height: 200px;
+        height: 1000px;
         background-color: lightgrey;
      }
 
@@ -29,10 +30,18 @@
         left: 50px;
         background-color: lightcoral;
      }
+
+     .fixed {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: yellow;
+     }
 </style>
 <body>
-    <!-- <p class="static">i am static</p>
-    <div class="relative">i am relative</div> -->
+    <p class="static">i am static</p>
+    <div class="relative">i am relative</div>
+    <div class="fixed">i am fixed</div>
 
     <div class="parent">
         <div class="absolute">i am absolute</div>
