@@ -7,6 +7,7 @@ Define how elements are arranged on a webpage
 
 # Display
 the display property defines how an element behaves in the layout.
+(block,inline,flex,grid)
 - # Block: 
 block starts on a new line, takes full width. Examples that have dfault block are div, p, h1, and section
 - # Inline: 
@@ -86,7 +87,19 @@ Example:
     <span class="inline">i am inline too</span>
 
 
+# Positioning 
+The position property determines how elements are placed on a page 
+Position types:
+- # Static
+(default) | Normal flow, no positioning
+- # Relative
+Moves relative to its normal position
+- # Absolute
+Moves relative to the nearest positioned ancestor
+- # Fixed
+Stays fixed on the screen 
+- # Sticky
+Sticks when scrolling past a point
 
-- flex 
-- grid
+
 
