@@ -57,25 +57,29 @@ it can be written in short hand or long hand. Width -> style -> color
 short hand:
 
 .box {
-            border: 5px solid black;}
+
+            border: 5px solid black;
 
 long hand: 
 
 .box {
+
             border-width: 5px;
             border-style: solid;
-            border-color: black; }
+            border-color: black; 
 
- - if you want rounded border     
+ - if you want rounded border    
+
             border-radius: 15px;      
 
  - square into circle
+
  .box {
 
             border: 1px solid black;
             height: 100px;
             width: 100px;
-            border-radius: 50px;   }    
+            border-radius: 50px;    
 
 # Margin 
 Creates space outside the border creating space. margin is also in clockwise top,right,bottom,left. width -> style -> color
@@ -84,12 +88,52 @@ Creates space outside the border creating space. margin is also in clockwise top
 - shorthand:
 
     .box {
-       margin: 30px 10px 5px 30px; }    
+
+       margin: 30px 10px 5px 30px;    
 
 - auto centering: center is a block element horiztonally
 
         width: 200px;
         background-color: lightblue;
         margin:auto
+
+# Box-sizing
+to fix box sizing issues by default width and height exclude padding and border making the actual size larger 
+
+.box {
+
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+
+- the problem here is that now the box size is bigger than 200 pixels by 100 pixels.
+
+The solution is adding box-sizing: border-box;
+
+.box { 
+              
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            box-sizing: border-box;
+
+ now width and heigh include padding and border keeping the box size fixed.
+
+# Box-shadow 
+this is adding depth create a 3d effect around an element
+
+.box {
+
+          box-shadow: 5px 5px 10px black;
+
+- shorthand:
+
+box-shadow: x-offset -->  y-offset -->  blur-radius -->  color          
+
+
+
+
        
 
