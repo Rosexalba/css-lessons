@@ -201,6 +201,7 @@ z-index 2 makes the blue box appear above the red box.
 < style>
 
   .box {
+    
         position: absolute;
         width: 100px;
         height: 100px;
