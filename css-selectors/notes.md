@@ -254,9 +254,7 @@ Example:
 
 < style>
 
-  .quote::before 
-  
-  {
+  .quote::before {
             content: '"'; opening quote
             font-size: 20px;
             color: blue;
