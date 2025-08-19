@@ -168,7 +168,7 @@ Example: for the Adjacent sibiling you will be using the + plus to style. here w
 
 < body>
 
-  < h2>Heading< /h2>
+< h2>Heading< /h2>
     < p>this is selected instead< /p>
     < p>this is selected< /p>
     < p>this is not.< /p>
@@ -180,16 +180,16 @@ Example: for the General sibiling we will be using ~ tilde to style. This will s
 < style>
 
    h2 ~ p {
-            color: orange;
-        } 
+        color: orange;
+ } 
 
 < /style>
 
 < body>
 
- < h2>Heading</h2>
- < p>first paragraph.</p>
- < p>second paragraph.</p>
+ < h2>Heading< /h2>
+ < p>first paragraph.< /p>
+ < p>second paragraph.< /p>
 
 <br/>
 
