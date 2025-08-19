@@ -7,16 +7,18 @@ Define how elements are arranged on a webpage
 
 # Display
 the display property defines how an element behaves in the layout.
-- # Block: block starts on a new line, takes full width. Examples that have dfault block are div, p, h1, and section
-- # Inline: inline only take needed width. Examples of default inline are span, a, and strong.
+- # Block: 
+block starts on a new line, takes full width. Examples that have dfault block are div, p, h1, and section
+- # Inline: 
+inline only take needed width. Examples of default inline are span, a, and strong.
 
 Block element stack and inline elements stay in the same line.
 
 Example:
 
 < style>
-    .block {
 
+    .block {
         background-color: lightblue;
         padding: 10px;
     }
@@ -40,7 +42,6 @@ and for the div we are changing the display: to inline so the go side by side.
 Example:
 
   span {
-
         display: block;
         width: 200px;
      }
@@ -76,7 +77,7 @@ Example:
 
         display: none;
      }
-     
+
 < body>
 
     <div class="block">i am a block element</div>
