@@ -103,9 +103,9 @@ Useful for styling forms and buttons
 
 # Combinators
 Combinators target elements based on their relationship with other elements.
-- Desendant
-- child
-- sibiling
+1. Desendant
+2. child
+3. sibiling
 
 - # Descendant: 
 The descendant selector targets all matching elements inside another element
