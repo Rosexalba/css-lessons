@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive typography</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Default size/ rem 3x times the size from the root*/
+        h1 {
+            font-size: 3rem;
+        }
+
+        /* Tablet */
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }    
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Responsive typography</h1>
+    <p>This text changes size based on screen width</p>
 </body>
 </html>

@@ -36,7 +36,35 @@ Media queries are a css feature that detects screen size and applys specific sty
         }
        
 # Responsive
- - Typography
+ - Typography : changes size based on screen width 
+
+     < style>
+
+        body {
+            font-family: arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Default size/ rem 3x times the size from the root*/
+        h1 {
+            font-size: 3rem;
+        }
+
+        /* Tablet */
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }    
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+        
  - Layouts
  - Images
 
