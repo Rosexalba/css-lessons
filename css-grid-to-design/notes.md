@@ -97,10 +97,45 @@ This will center both items both horizontally and vertically. its combines justi
 
 
 
+# advanced grid-features 
+- grid-template-areas :define a named layout 
+
+< style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: 80px 1fr 60px;
+            grid-template-areas: 
+            "header header"
+            "sidebar content"
+            "footer footer"
+        }
+
+        .header {
+             grid-area: header; background-color: lightblue;
+        }
+
+        .sidebar {
+            grid-area: sidebar; background-color: lightgray;
+        }
+
+        .content { 
+            grid-area: content; background: white
+        }
+
+        .footer { 
+            grid-area: footer; background-color: lightgreen;}
 
 
+< body>
+
+    <div class="grid-container">
+        <header class="header">Header</header>
+        <aside class="sidebar">Sidebar</aside>
+        <main class="content">content</main>
+        <footer class="footer">Footer</footer>
+    </div>
 
 
-- spacing & alignment (gap, justify items, align-items)
-- advanced grid-features (grid-template-areas)
 
