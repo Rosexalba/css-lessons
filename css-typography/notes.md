@@ -73,7 +73,7 @@ font weight refers to the boldness of text and font style refers italics or norm
 
 - values range from 100 to 900 
 
-# font style 
+- font style 
 
 < style>
 
@@ -85,3 +85,81 @@ font weight refers to the boldness of text and font style refers italics or norm
 
       <p class="bold italic">bold text</p>
 
+
+# Text Alignment
+The text alignment property controls horizontal text placement
+
+ < style>
+
+        .left {
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+< body>
+
+    <p class="left">left aligned</p>
+    <p class="center">center aligned</p>
+    <p class="right">right aligned</p>
+
+# line height and spacing 
+controls the space between lines
+- Letter spacing and word 
+
+< style>
+
+ .spacing {
+            line-height: 5; 
+        }
+
+        .letter-spacing {
+            letter-spacing: 10px;
+        }
+
+        .word-spacing { 
+            word-spacing: 50px;
+        }
+
+# Text-transformation and Decoration  
+
+
+ < style>
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .lowercase {
+            text-transform: lowercase;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        .underline { 
+            text-decoration: underline;
+        }
+
+        .line-through {
+            text-decoration: line-through;
+        }
+
+        .no-decoration {
+            text-decoration: none;
+        }
+        
+< body>
+
+    <p class="uppercase underline">uppercase</p>
+    <p class="lowercase line-through">LOWERCASE</p>
+    <P class="capitalize">capitalize</P>
+    <a class="no-decoration" href="https://google.com">google.com</a>
+   
