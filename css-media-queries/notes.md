@@ -68,7 +68,7 @@ Media queries are a css feature that detects screen size and applys specific sty
  - Layouts: grid to stack column layout on small screens
 
  < style>
- 
+
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -95,17 +95,37 @@ Media queries are a css feature that detects screen size and applys specific sty
             }
         }
 
+ < body>
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
 
 
 
+ - Images: Insures images resize properly on all screens 
+ 
+ < style>
 
+     body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
 
+        img { 
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 
+< body>
 
+    <h1>Responsive Images</h1>
+    <img src="/home/rosexalba/css-lessons/css-colors-&backgrounds/Background.jpg" alt="">
 
-
-
- - Images
+- now you will be able to keep images from overflowing on small screens.
 
  # Mobile-first 
  
