@@ -64,8 +64,47 @@ Media queries are a css feature that detects screen size and applys specific sty
                 font-size: 1.5rem;
             }
         }
-        
- - Layouts
+
+ - Layouts: grid to stack column layout on small screens
+
+ < style>
+ 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container { 
+            display: grid;
+            grid-template-columns:  1fr 1fr 1fr;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: steelblue;
+            color: white;
+            padding:20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        @media (max-width:768pc) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
  - Images
 
  # Mobile-first 
