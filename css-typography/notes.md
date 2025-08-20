@@ -155,7 +155,7 @@ controls the space between lines
         .no-decoration {
             text-decoration: none;
         }
-        
+
 < body>
 
     <p class="uppercase underline">uppercase</p>
@@ -163,3 +163,10 @@ controls the space between lines
     <P class="capitalize">capitalize</P>
     <a class="no-decoration" href="https://google.com">google.com</a>
    
+# Importing google fonts 
+- HTML has great fonts built in but sometimes we want different style or mor variety in custom fonts.
+- Head over to the google font webpage 
+fonts.google.com
+- There you click 'Get font' after you see one you like this will give you the code to link to your page and the css code for styling 
+
+
